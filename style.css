@@ -1,0 +1,292 @@
+/* Custom Styles - SLIATE Official Theme */
+
+/* Body - Clean white background */
+body {
+    background-color: #ffffff;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212121;
+}
+
+/* Login page - Light gold background */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #FFF9E6 0%, #FFE8B3 100%);
+}
+
+.login-card {
+    border: none;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.login-header {
+    background-color: #1A237E;
+    color: white;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.login-header h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Dashboard - Very light background */
+.dashboard-container {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+/* Navbar - SLIATE Maroon (Official website color) */
+.navbar-custom {
+    background-color: #8B0000;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Card styling - White cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #1A237E;
+    color: white;
+    font-weight: 600;
+    font-size: 1.15rem;
+    border-radius: 10px 10px 0 0 !important;
+    border-bottom: none;
+    padding: 1rem 1.25rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Form labels - Enhanced readability */
+.form-label {
+    color: #212121;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Form controls */
+.form-control, .form-select {
+    border-radius: 6px;
+    border: 2px solid #e0e0e0;
+    padding: 0.65rem 0.75rem;
+    background-color: white;
+    font-size: 1rem;
+    color: #212121;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #FDB913;
+    box-shadow: 0 0 0 3px rgba(253, 185, 19, 0.15);
+    outline: none;
+}
+
+/* Button styling */
+.btn {
+    border-radius: 6px;
+    padding: 0.65rem 1.5rem;
+    font-weight: 600;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+/* Primary button (Search/Login) - SLIATE Navy */
+.btn-primary {
+    background-color: #1A237E;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0D1642;
+}
+
+/* Success button (Save) - Green */
+.btn-success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #388E3C;
+}
+
+/* Warning button (Update) - SLIATE Gold */
+.btn-warning {
+    background-color: #FDB913;
+    color: #1A237E;
+    font-weight: 700;
+}
+
+.btn-warning:hover {
+    background-color: #E5A60D;
+}
+
+/* Danger button (Delete) - Red */
+.btn-danger {
+    background-color: #D32F2F;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #B71C1C;
+}
+
+/* Secondary button (Clear) - Gray */
+.btn-secondary {
+    background-color: #757575;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #616161;
+}
+
+/* Light button (Load Data) - White with navy border */
+.btn-light {
+    background-color: white;
+    color: #1A237E;
+    border: 2px solid #1A237E;
+    font-weight: 600;
+}
+
+.btn-light:hover {
+    background-color: #FFF9E6;
+    color: #0D1642;
+    border-color: #0D1642;
+}
+
+/* Alert styling */
+.alert {
+    border-radius: 8px;
+    border: none;
+    padding: 1rem 1.25rem;
+    font-weight: 500;
+}
+
+.alert-success {
+    background-color: #E8F5E9;
+    color: #2E7D32;
+    border-left: 4px solid #4CAF50;
+}
+
+.alert-danger {
+    background-color: #FFEBEE;
+    color: #C62828;
+    border-left: 4px solid #D32F2F;
+}
+
+.alert-warning {
+    background-color: #FFF8E1;
+    color: #E65100;
+    border-left: 4px solid #FDB913;
+}
+
+.alert-info {
+    background-color: #E8EAF6;
+    color: #283593;
+    border-left: 4px solid #1A237E;
+}
+
+/* Table styling */
+.table {
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.table thead {
+    background-color: #1A237E;
+    color: white;
+}
+
+.table thead th {
+    border-bottom: none;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.table tbody td {
+    padding: 0.9rem 1rem;
+    vertical-align: middle;
+    color: #212121;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fafafa;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #FFF9E6;
+}
+
+/* Table responsive container */
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Logout button in navbar */
+.navbar .btn-light {
+    background-color: white;
+    color: #8B0000;
+    border: none;
+    font-weight: 600;
+}
+
+.navbar .btn-light:hover {
+    background-color: #FDB913;
+    color: #1A237E;
+}
+
+/* Navbar text */
+.navbar .text-white {
+    font-weight: 500;
+}
+
+/* Gold accent line under card headers */
+.card-header::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #FDB913;
+    margin: 0.5rem auto 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+}
